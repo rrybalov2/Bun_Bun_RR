@@ -13,49 +13,7 @@ body {
     margin: 0;
 }
 
-/*********** HEADER ************/
-header {
-    text-align: center;
-    padding: 10px;
-}
 
-h1 {
-    margin: 0;
-}
-
-/*********** LISTS ************/
-#todo-lists {
-    margin: 0 auto;
-    width: 80%;
-    padding-top: 10px;
-}
-
-.list {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.list-title {
-    margin-left: 20px;
-}
-
-body {
-    margin: 0;
-    color: teal;
-}
-
-/*********** HEADER ************/
-
-header {
-    text-align: center;
-    padding: 10px;
-    background-color: teal;
-    color: white;
-}
-
-h1 {
-    margin: 0;
-}
 
 /*********** LISTS ************/
 #todo-lists {
@@ -102,4 +60,68 @@ header {
     background-color: teal;
     color: white;
     font-family: 'Roboto Slab', serif;
+    background-image: url("buns_banner.png");
+    background-repeat: no-repeat;
 }
+
+body {
+    background-image: url("buns_banner.png");
+    background-repeat: no-repeat;
+}
+
+
+/*********** GALLERY ************/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*** FLEXBOX ***/
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 10%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
