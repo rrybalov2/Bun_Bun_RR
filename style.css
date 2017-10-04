@@ -103,12 +103,12 @@ div.desc {
 
 /* Left and right column */
 .column.side {
-    width: 10%;
+    width: 30%;
 }
 
 /* Middle column */
 .column.middle {
-    width: 80%;
+    width: 40%;
 }
 
 /* Clear floats after the columns */
