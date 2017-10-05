@@ -1,19 +1,45 @@
 <!-- styles -->
       <link rel="stylesheet" type="text/css" href="style.css">
 
+/*********** HEADER ************/
       header {
     text-align: center;
             }
 
-#todo-lists {
-    margin: 0 auto;
-    width: 80%;
-}
 body {
     margin: 0;
+    background-color: #e8efee;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff7a7a;
+    color: white;
+    font-family: 'Open Sans', serif;
+    background-repeat: no-repeat;
+}
+
+background-image {
+width: 100%;
 }
 
 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    width: 400px;
+    height: 250px;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
 
 /*********** LISTS ************/
 #todo-lists {
@@ -29,58 +55,27 @@ body {
     border: 1px solid #cccccc;
 }
 
-.list-title {
-    margin-left: 20px;
-}
-
 header a {
-    color: gold;
-    text-decoration: none;
-}
-
-.list a {
-    color: teal;
+    color: white;
     text-decoration: none;
 }
 
 <!-- fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-Now we can use the fonts in our style.css file. Update the body and header selectors:
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 body {
     margin: 0;
-    color: teal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/*********** HEADER ************/
-
-header {
-    text-align: center;
-    padding: 10px;
-    background-color: teal;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    background-image: url("buns_banner.png");
-    background-repeat: no-repeat;
-}
-
-body {
-    background-image: url("buns_banner.png");
-    background-repeat: no-repeat;
-}
 
 
 /*********** GALLERY ************/
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 10px;
     float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 div.gallery img {
@@ -103,12 +98,12 @@ div.desc {
 
 /* Left and right column */
 .column.side {
-    width: 30%;
+    width: 20%;
 }
 
 /* Middle column */
 .column.middle {
-    width: 40%;
+    width: 60%;
 }
 
 /* Clear floats after the columns */
@@ -120,8 +115,8 @@ div.desc {
 
 /* Style the footer */
 .footer {
-    background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
