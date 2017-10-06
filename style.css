@@ -21,7 +21,7 @@ header {
 }
 
 background-image {
-width: 100%;
+    width: 100%;
 }
 
 
@@ -94,7 +94,6 @@ div.desc {
 .column.middle {
     width: 60%;
     font-family: 'Open Sans', serif;
-
 }
 
 /* Clear floats after the columns */
